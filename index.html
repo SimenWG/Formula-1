@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/f1 logo top.png" type="x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 - The Unofficial Home Of Formula 1 Racing</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #countdown {
+            font-size: 20px;
+            margin: 20px;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 10px solid red;
+        }
+
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="top-information fixed-top">
+    <div class="left-info">
+        <ul>    
+            <li><a href="#"><img src="./images/fia logo.png" style="filter: grayscale(100%); border-right: 1px solid black; padding-right: 10px;"  alt=""></a></li>
+            <li><a href="#">F1®</a></li>
+            <li><a href="#">F2®</a></li>
+            <li><a href="#">F3®</a></li>
+            <li><a href="#">F1 ACADEMY®</a></li>
+        </ul>
+        <div class="to-infop">
+
+        </div>
+        <div class="top">
+            <ul>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#support">Support</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">F1 Games ⇩</button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-row">
+                            <img src="./images/game1.jpg" alt="">
+                            <p>Game 1</p>
+                        </div>
+                        <div class="dropdown-row">
+                            <img src="./images/game2.jpg" alt="">
+                            <p>Game 2</p>
+                        </div>
+                        <div class="dropdown-row">
+                            <img src="./images/game3.jpg" alt="">
+                            <p>Game 3</p>
+                        </div>
+                        <div class="dropdown-row">
+                            <img src="./images/game4.jpg" alt="">
+                            <p>Game 4</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header class="fixed-top">
+    <div class="nav container">
+        <a href="#" class="logo" style="color: black;"><img src="./images/f1_logo.svg" alt=""></a>
+        <li class="dropdown">
+            <button class="dropbtn">F1 Games <img src="./images/arrowdown.png" style="height: auto; width: 10px;" alt=""></button>
+            <div class="dropdown-content">
+                <div class="dropdown-row">
+                    <img src="./images/f124 game.jpg" alt="">
+                    <p>Formula 1 24</p>
+                </div>
+                <div class="dropdown-row">
+                    <img src="./images/F123.jpg" alt="">
+                    <p>Formula 1 23</p>
+                </div>
+                <div class="dropdown-row">
+                    <img src="./images/f122.jpg" alt="">
+                    <p>Formula 1 22</p>
+                </div>
+                <div class="dropdown-row">
+                    <img src="./images/f121.jpg" alt="">
+                    <p>Formula 1 21</p>
+                </div>
+            </div>
+        </li>
+        <a href="./html/standings.html">Standings</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#drivers">Drivers</a>
+        <a href="#teams">Teams</a>
+    </div>
+</header>
+
+<div class="topnews" id="topnews">
+    <img src="./images/bearmandriving.webp" alt="">
+    <h1>Bearman ‘destroyed’ after points-scoring Ferrari debut as he reflects on ‘good showing’ in Saudi Arabia</h1>
+    <p>The F2 driver Oliver Bearman beats half of the Formula 1 grid in his first Formula 1 Race. <br>
+        As the race wore on, the 18-year-old faced pressure from the threat of Lando Norris and Lewis Hamilton behind on fresher tyres, <br>
+        but he ultimately held on to claim P7, handing him six points in his first Formula 1 race.</p>
+</div>
+
+
+<h1 style= " display: flex; justify-content: center;">Time Left Of The F1 24 Season:</h1>
+<div id="countdown"></div>
+
+<div class="news">
+    <div class="row news-row">
+        <div class="news-item">
+            <img src="./images/f124.jpg" alt="">
+            <p>F1 24 will launch this summer on PC and console. Price will be 70$ Gamers complain</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/ferrari2025.jpg" alt="">
+            <p>CONFIRMED: Lewis Hamilton will be switching to ferrari in 2025 "A fresh start"</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/russell.jpg" alt="">
+            <p>Russell complains about Lewis Hamiltons egotistical driving in saudi arabia</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/maxdominate.jpg" alt="">
+            <p>Max Verstappen dominates the F1 grid "He dosen't seem excited for the win anymore" - Christian Horner</p>
+        </div>
+    </div>
+    <div class="row news-row">
+        <div class="news-item">
+            <img src="./images/wolf.jpg" alt="">
+            <p>Toto Wolff has admitted that he would “love” to have Max Verstappen at Mercedes should the Dutchman become available</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/zhou.jpg" alt="">
+            <p>Heavy crash for Zhou Guanyu brings out red flags during FP3 in Saudi Arabia 2024 "I just lost control"</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/sainz.jpg" alt="">
+            <p>Carlos Sainz has appendicitis and therefore will not be able to participate in the Saudi Arabian Grand Prix.</p>
+        </div>
+        <div class="news-item">
+            <img src="./images/audif1.jpg" alt="">
+            <p>Audi will take over Sauber's F1 operations in 2026. Audi verified its plans to enter F1 in 2026 and declared it had entered an agreement with Sauber</p>
+        </div>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to the Unofficial Home of <span>Formula 1</span> Racing</h1>
+      <p>Experience the thrill, speed, and passion of Formula 1 - the ultimate motorsport.</p>
+    </div>
+  </section>
+  
+
+<footer>
+    <div class="footertext" style="user-select: none;">
+    <img src="./images/f1_logo.svg" style="margin-bottom: 20px; display: block;
+    margin-left: auto; margin-right: auto; width: 50%; height: auto; width: 50px;" alt=""> <h1></h1>
+    <p style="padding-bottom: 40px; border-bottom: 2px solid gray;">"Opplev spenningen, hastigheten og lidenskapen til Formel 1 - den ultimate motorsporten som forener verdens beste førere, de mest avanserte bilene og de mest ikoniske løpene på planeten. Med sin rike historie og globale appell fortsetter Formel 1 å inspirere millioner av fans verden over. Bli med oss ​​på reisen gjennom hvert sving, hver overhaling og hver triumf på veien til seierspodiet."</p>
+    <p style="padding-top: 40px; word-spacing: 15px; line-height: 200%; padding-bottom: 40px; border-bottom: 2px solid gray;">CONTACTS 
+        F1 TV SUPPORT
+        PRIVACY POLICY
+        COOKIES POLICY
+        COOKIE PREFERENCES
+        GUIDELINES
+        LEGAL NOTICES
+        CODE OF CONDUCT
+        ANTI-BRIBERY
+        HUMAN RIGHTS
+        GENDER PAY REPORT
+        TERMS OF USE
+        PARTNERS
+        F1® FAN VOICE
+        BEYOND THE GRID - THE F1® PODCAST
+        F1® CORPORATE SITE
+        BECOME AN AFFILIATE
+        OFFICIAL F1® RACE PROGRAMME
+        MODERN SLAVERY STATEMENT</p>
+        <br><br>
+   <p style="display: flex; justify-content: space-between; color: gray;"> <img style="margin-bottom: 20px; display: block;
+    margin-left: auto; margin-right: auto; width: 50%; height: auto; width: 50px;" src="./images/f1_logo.svg" alt="">© 2003-2024 Formula One World Championship Limited</p>
+</div>
+</footer>
+
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">^</button>
+
+<script src="./javascript/script.js"></script>
+</body>
+</html>
