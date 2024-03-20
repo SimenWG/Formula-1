@@ -159,7 +159,6 @@ header img {
   color: rgb(67, 67, 67);
 }
 
-
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -190,10 +189,25 @@ header img {
   height: auto;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: 30px;
-  padding-top: 100px;
+  margin-top: 120px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+}
+
+.topnewsborder {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 5px; 
+  height: 100%;
+  background-color: red; 
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+}
+
+
+.topnews img {
+  margin-top: 5px; 
 }
 
 .topnews p {
@@ -212,14 +226,12 @@ header img {
 }
 
 .news-item {
-  
   transition: transform 0.3s ease; 
 }
 
 .news-item:hover {
   transform: translateY(-5px); 
 }
-
 
 .news-container {
   width: 80%;
@@ -256,7 +268,6 @@ header img {
   width: 100%;
   height: auto;
 }
-
 
 .gamebutton {
   position: absolute;
@@ -319,7 +330,6 @@ header img {
 .hero {
   background-attachment: fixed;
 }
-
 
 footer {
   margin-top: 100px;
@@ -417,7 +427,6 @@ footer img {
 #scrollTopBtn:hover {
   background-color: rgb(187, 0, 0);
 }
-
 
 @media screen and (max-width: 576px) {
   .nav a {
@@ -544,26 +553,27 @@ footer img {
   }
 }
 
-/* Center align footer text on smaller screens */
-@media screen and (max-width: 576px) {
-  .footertext {
-    text-align: center;
-  }
+
+.container {
+  text-align: center;
 }
 
 
-@media screen and (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 30px;
-  }
-  .hero-content p {
-    font-size: 16px;
-  }
+.container {
+
+  padding: 10px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 
-@media screen and (max-width: 576px) {
-  .footertext {
-    text-align: center;
-  }
+.btn:hover {
+  background-color: #ddd;
 }
